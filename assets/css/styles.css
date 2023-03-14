@@ -1,0 +1,147 @@
+@import url("/assets/css/reset.css");
+
+body {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 48px 0px;
+
+  position: relative;
+  max-width: 1440px;
+  overflow-y: scroll;
+  background: #f9fafb;
+  color: #111827;
+}
+.container {
+  max-width: 768px;
+  padding: 0px 16px;
+}
+.header {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  max-width: 1440px;
+  height: 68px;
+  background: #44403c;
+}
+#title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 120%;
+  color: #ffffff;
+  text-align: center;
+}
+
+.general {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+}
+#content-1 {
+  margin-top: 32px;
+  margin-bottom: 56px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+}
+#negrita {
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+#content-2 {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+#lista-1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+#content-3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.cite-1 {
+  background: #d6d3d1;
+  border-radius: 8px;
+  padding: 16px;
+}
+#content-cite {
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+}
+#figure1 {
+  width: auto;
+  height: auto;
+
+  margin-left: 16px;
+  margin-right: 16px;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 32px;
+}
+#message-image1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 16px 16px 56px 16px;
+}
+
+#content-4 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  margin-top: 24px;
+  margin-bottom: 72px;
+}
+
+.footer {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  min-width: 375px;
+  min-height: 68px;
+  background: #44403c;
+  max-width: 1440px;
+  height: 68px;
+}
+
+#final {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 120%;
+  text-align: center;
+  color: #ffffff;
+}
