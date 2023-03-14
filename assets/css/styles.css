@@ -1,25 +1,21 @@
 @import url("/assets/css/reset.css");
 
-body {
-  width: 50%;
-  margin: 0 auto;
-}
-
 .section {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: flex-start;
-  padding: 48px 0px;
+  padding: 0px;
 
   position: relative;
-  max-width: 1440px;
+  min-width: 375px;
   overflow-y: scroll;
   background: #f9fafb;
   color: #111827;
 }
 .container {
-  max-width: 768px;
+  min-width: 375px;
+  margin: 48px 0px;
   padding: 0px 16px;
 }
 .header {
@@ -101,14 +97,9 @@ h2 {
   line-height: 32px;
 }
 #figure1 {
-  width: auto;
-  height: auto;
-
-  margin-left: 16px;
-  margin-right: 16px;
-  width: 50%;
-  margin: 0 auto;
   margin-top: 32px;
+  min-width: 343px;
+  min-height: 341px;
 }
 #message-image1 {
   font-family: "Open Sans", sans-serif;
