@@ -51,6 +51,9 @@
   background-color: var(--secondary-light);
 }
 
+.bg-color-background-dark {
+  background-color: var(--background-dark);
+}
 /* .margin-left-1x {
   margin-left: 1rem;
 }
@@ -61,4 +64,4 @@
 
 .margin-left-3x {
   margin-left: 3rem;
-} */
+} */ ;

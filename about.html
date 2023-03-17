@@ -4,17 +4,157 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Me</title>
+    <title>Diego Gomez | About Me</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <h1>About me</h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut nobis veniam
-      quis? Delectus enim earum necessitatibus dignissimos, voluptas iure ab
-      accusamus, doloremque facere, deserunt iste officia perferendis! Ut, fugit
-      illum!
-    </p>
-
-    <a href="index.html">Return to home</a>
+    <header class="header">
+      <div class="container-lg">
+        <nav class="navbar">
+          <a
+            href="/index.html"
+            class="navbar__logo heading-md semibold text-decoration-none"
+          >
+            <span> Diego Gomez </span>
+          </a>
+          <ul class="navbar__links list-style-none">
+            <li>
+              <a href="article.html" class="link text-md semibold">Articles</a>
+            </li>
+            <li>
+              <a href="#" class="link text-md semibold">Portafolio</a>
+            </li>
+            <li>
+              <a href="about.html" class="link text-md semibold">About</a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="button button--primary button--sm text-decoration-none ml-4"
+                >Contact Me</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="section-padding-md bg-color-secondary-light">
+      <div class="container-lg">
+        <h2 class="heading-xl regular">
+          Hi! I’m <span class="semibold color-primary">Diego Gomez</span>, full
+          stack developer looking for new adventures
+        </h2>
+        <p class="text-xl light">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget velit
+          risus tellus viverra luctus in odio amet. Quisque viverra integer
+          lectus euismod quisque adipiscing. Sed posuere sed bibendum mi orci,
+          commodo, quam. Sagittis, donec sit bibendum mi nisl semper sed.
+        </p>
+      </div>
+    </section>
+    <main class="section-padding-md article-summary">
+      <div class="container-lg">
+        <div class="article-summary__header">
+          <h1 class="heading-lg semibold">My Skills</h1>
+        </div>
+        <div class="article-summary__content">
+          <div class="article-summary__card">
+            <h3 class="heading-sm regular">Ruby</h3>
+            <p class="text-lg light">
+              Lorem ipsum dolor sit amet consect adipisicing elit. Possimus
+              magnam voluptatum cupiditate veritatis in accusamus quisquam.
+            </p>
+          </div>
+          <div class="article-summary__card">
+            <h3 class="heading-sm regular">Ruby on Rails</h3>
+            <p class="text-lg light">
+              Lorem ipsum dolor sit amet consect adipisicing elit. Possimus
+              magnam voluptatum cupiditate veritatis in accusamus quisquam.
+            </p>
+          </div>
+          <div class="article-summary__card">
+            <h3 class="heading-sm regular">Javascript</h3>
+            <p class="text-lg light">
+              Lorem ipsum dolor sit amet consect adipisicing elit. Possimus
+              magnam voluptatum cupiditate veritatis in accusamus quisquam.
+            </p>
+          </div>
+          <div class="article-summary__card">
+            <h3 class="heading-sm regular">React</h3>
+            <p class="text-lg light">
+              Lorem ipsum dolor sit amet consect adipisicing elit. Possimus
+              magnam voluptatum cupiditate veritatis in accusamus quisquam.
+            </p>
+          </div>
+          <div class="article-summary__card">
+            <h3 class="heading-sm regular">Git & Github</h3>
+            <p class="text-lg light">
+              Lorem ipsum dolor sit amet consect adipisicing elit. Possimus
+              magnam voluptatum cupiditate veritatis in accusamus quisquam.
+            </p>
+          </div>
+          <div class="article-summary__card">
+            <h3 class="heading-sm regular">Postgresql</h3>
+            <p class="text-lg light">
+              Lorem ipsum dolor sit amet consect adipisicing elit. Possimus
+              magnam voluptatum cupiditate veritatis in accusamus quisquam.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <section
+      class="section-padding-md article-summary bg-color-background-dark"
+    >
+      <div class="container-lg">
+        <div class="article-summary__header">
+          <h1 class="heading-lg semibold">My Hobbies</h1>
+        </div>
+        <div class="article-sumary__content__images">
+          <div class="article-summary__card">
+            <figure>
+              <img src="assets/images/imagen1.jpg" />
+            </figure>
+          </div>
+          <div class="article-summary__card article-summary">
+            <h4 class="heading-md semibold">Food</h4>
+            <p class="text-xl light">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Ullamcorper cursus at viverra netus mauris, fermentum felis.
+            </p>
+          </div>
+          <div class="article-summary__card">
+            <figure>
+              <img src="assets/images/imagen2.jpg" />
+            </figure>
+          </div>
+          <div class="article-summary__card article-summary">
+            <h4 class="heading-md semibold">Travel</h4>
+            <p class="text-xl light">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Ullamcorper cursus at viverra netus mauris, fermentum felis.
+            </p>
+          </div>
+          <div class="article-summary__card">
+            <figure>
+              <img src="assets/images/imagen3.jpg" />
+            </figure>
+          </div>
+          <div class="article-summary__card">
+            <figure>
+              <img src="assets/images/imagen4.jpg" />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container-lg footer__content">
+        <h2 class="heading-xl semibold footer__content__title">
+          Can I Help you?
+        </h2>
+        <button class="button button--primary">Get in touch!</button>
+      </div>
+    </footer>
   </body>
 </html>
