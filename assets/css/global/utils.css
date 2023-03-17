@@ -54,6 +54,19 @@
 .bg-color-background-dark {
   background-color: var(--background-dark);
 }
+
+.content_icon {
+  position: relative;
+  padding-left: 2.5rem;
+}
+.icon {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1.5rem;
+  height: 1.5rem;
+}
 /* .margin-left-1x {
   margin-left: 1rem;
 }
