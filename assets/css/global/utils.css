@@ -57,6 +57,10 @@
 .bg-color-background-gray {
   background-color: var(--background);
 }
+
+.bg-color-background-white {
+  background-color: var(--white);
+}
 .content_icon {
   position: relative;
   padding-left: 2.5rem;
