@@ -92,7 +92,7 @@
   padding-right: 2.5rem;
 
   appearance: none;
-  background-image: url(/assets/images/arrow-down.svg);
+  background-image: url(/assets/images/icons/arrow-down.svg);
   background-repeat: no-repeat;
   background-position-y: center;
   background-position-x: calc(100% - 12px);
@@ -158,7 +158,7 @@
   border: 1px solid var(--primary);
 
   /* Cargar la imagen del check como backgound image */
-  background-image: url(/assets/images/check.svg);
+  background-image: url(/assets/images/icons/check.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
