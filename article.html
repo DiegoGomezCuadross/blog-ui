@@ -7,24 +7,39 @@
     <title> Diego Gomez | Article</title>
     <link rel="stylesheet" href="assets/css/style.css">
   <body>
-    <header class="header">
-      <div class="container-md">
+      <header class="header">
+      <div class="container-lg">
         <nav class="navbar">
+          <input type="checkbox" id="menu-mobile" />
+
           <a
             href="/index.html"
             class="navbar__logo heading-md semibold text-decoration-none"
           >
             <span> Diego Gomez </span>
+
+            <!-- option 1 -->
+            <label for="menu-mobile" id="toggle-close">
+              <i class="ri-close-fill ri-sm"></i>
+            </label>
+
+            <!-- option 2 -->
+            <label for="menu-mobile" id="toggle-open">
+              <i class="ri-menu-fill ri-sm"></i>
+            </label>
           </a>
-          <ul class="navbar__links list-style-none">
+
+          <ul class="expandable navbar__links list-style-none">
             <li>
-              <a href="article.html" class="link text-md semibold">Articles</a>
-            </li>   
-            <li>
-              <a href="portfolio.html" class="link text-md semibold">Portafolio</a>
+              <a href="/article.html" class="link text-md semibold">Articles</a>
             </li>
             <li>
-              <a href="about.html" class="link text-md semibold">About</a>
+              <a href="/portfolio.html" class="link text-md semibold"
+                >Portafolio</a
+              >
+            </li>
+            <li>
+              <a href="/about.html" class="link text-md semibold">About</a>
             </li>
             <li>
               <a
