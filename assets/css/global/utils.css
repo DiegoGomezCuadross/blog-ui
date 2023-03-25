@@ -150,10 +150,13 @@
   align-items: start;
 }
 
-#name-form {
+.name-form {
   display: flex;
   justify-content: flex-start;
   margin-bottom: 4px;
+}
+.button-footer {
+  margin: 0px;
 }
 /* .margin-left-1x {
   margin-left: 1rem;
