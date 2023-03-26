@@ -156,6 +156,9 @@
   margin: 0px;
 }
 
+.margin-bottom {
+  margin-bottom: 16px;
+}
 /* .margin-left-1x {
   margin-left: 1rem;
 }
